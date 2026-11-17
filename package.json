@@ -1,0 +1,35 @@
+{
+  "name": "envguard-demo",
+  "version": "1.0.0",
+  "description": "Express.js demo that validates environment variables at startup with the published @wombatfrk/envguard-lite npm package.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "demo:fail": "node scripts/test-invalid-config.js"
+  },
+  "keywords": [
+    "envguard",
+    "environment-variables",
+    "validation",
+    "express",
+    "dotenv",
+    "demo"
+  ],
+  "author": "Abhyuday Singh Dhapola",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wombatfreak6/envguard-demo.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@wombatfrk/envguard-lite": "^1.0.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
