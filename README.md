@@ -111,8 +111,8 @@ The project uses **ES Modules** (`"type": "module"`), so every import is ESM.
 ## 5. Installation
 
 ```bash
-git clone https://github.com/Wombatfreak6/envguard-demo.git
-cd envguard-demo
+git clone https://github.com/Wombatfreak6/env-guard-demo.git
+cd env-guard-demo
 npm install
 ```
 
@@ -171,7 +171,7 @@ NODE_ENV=development
 ## 7. Project structure
 
 ```text
-envguard-demo/
+env-guard-demo/
 ├── src/
 │   ├── config.js                # Schema + loadConfig() + default config
 │   ├── app.js                   # Express app factory (routes)

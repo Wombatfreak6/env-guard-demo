@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wombatfreak6/envguard-demo.git"
+    "url": "git+https://github.com/Wombatfreak6/env-guard-demo.git"
   },
   "engines": {
     "node": ">=20"
